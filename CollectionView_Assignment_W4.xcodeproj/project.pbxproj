@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF348FFB23198C1300CA4502 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF348FFA23198C1300CA4502 /* AppDelegate.swift */; };
+		EF348FFD23198C1300CA4502 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF348FFC23198C1300CA4502 /* ViewController.swift */; };
+		EF34900023198C1300CA4502 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF348FFE23198C1300CA4502 /* Main.storyboard */; };
+		EF34900223198C1400CA4502 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF34900123198C1400CA4502 /* Assets.xcassets */; };
+		EF34900523198C1400CA4502 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF34900323198C1400CA4502 /* LaunchScreen.storyboard */; };
+		EF34900F2319969A00CA4502 /* BookVo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF34900E2319969A00CA4502 /* BookVo.swift */; };
+		EF34901423199EB200CA4502 /* BookStoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF34901323199EB200CA4502 /* BookStoreViewController.swift */; };
+		EF3490172319A15300CA4502 /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3490162319A15300CA4502 /* extension.swift */; };
+		EF34901B2319A40100CA4502 /* BooksCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3490192319A40100CA4502 /* BooksCollectionViewCell.swift */; };
+		EF34901C2319A40100CA4502 /* BooksCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF34901A2319A40100CA4502 /* BooksCollectionViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF348FF723198C1300CA4502 /* CollectionView_Assignment_W4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionView_Assignment_W4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF348FFA23198C1300CA4502 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF348FFC23198C1300CA4502 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF348FFF23198C1300CA4502 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF34900123198C1400CA4502 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF34900423198C1400CA4502 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF34900623198C1400CA4502 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF34900E2319969A00CA4502 /* BookVo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookVo.swift; sourceTree = "<group>"; };
+		EF34901323199EB200CA4502 /* BookStoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookStoreViewController.swift; sourceTree = "<group>"; };
+		EF3490162319A15300CA4502 /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
+		EF3490192319A40100CA4502 /* BooksCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksCollectionViewCell.swift; sourceTree = "<group>"; };
+		EF34901A2319A40100CA4502 /* BooksCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BooksCollectionViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF348FF423198C1300CA4502 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF348FEE23198C1300CA4502 = {
+			isa = PBXGroup;
+			children = (
+				EF348FF923198C1300CA4502 /* CollectionView_Assignment_W4 */,
+				EF348FF823198C1300CA4502 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF348FF823198C1300CA4502 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF348FF723198C1300CA4502 /* CollectionView_Assignment_W4.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF348FF923198C1300CA4502 /* CollectionView_Assignment_W4 */ = {
+			isa = PBXGroup;
+			children = (
+				EF3490182319A3D300CA4502 /* Item */,
+				EF3490152319A13900CA4502 /* Extension */,
+				EF34901023199E5500CA4502 /* Controllers */,
+				EF34900C2319967A00CA4502 /* Data */,
+				EF348FFA23198C1300CA4502 /* AppDelegate.swift */,
+				EF348FFE23198C1300CA4502 /* Main.storyboard */,
+				EF34900123198C1400CA4502 /* Assets.xcassets */,
+				EF34900323198C1400CA4502 /* LaunchScreen.storyboard */,
+				EF34900623198C1400CA4502 /* Info.plist */,
+			);
+			path = CollectionView_Assignment_W4;
+			sourceTree = "<group>";
+		};
+		EF34900C2319967A00CA4502 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				EF34900D2319968800CA4502 /* VOs */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		EF34900D2319968800CA4502 /* VOs */ = {
+			isa = PBXGroup;
+			children = (
+				EF34900E2319969A00CA4502 /* BookVo.swift */,
+			);
+			path = VOs;
+			sourceTree = "<group>";
+		};
+		EF34901023199E5500CA4502 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EF348FFC23198C1300CA4502 /* ViewController.swift */,
+				EF34901323199EB200CA4502 /* BookStoreViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EF3490152319A13900CA4502 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EF3490162319A15300CA4502 /* extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		EF3490182319A3D300CA4502 /* Item */ = {
+			isa = PBXGroup;
+			children = (
+				EF3490192319A40100CA4502 /* BooksCollectionViewCell.swift */,
+				EF34901A2319A40100CA4502 /* BooksCollectionViewCell.xib */,
+			);
+			path = Item;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF348FF623198C1300CA4502 /* CollectionView_Assignment_W4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF34900923198C1400CA4502 /* Build configuration list for PBXNativeTarget "CollectionView_Assignment_W4" */;
+			buildPhases = (
+				EF348FF323198C1300CA4502 /* Sources */,
+				EF348FF423198C1300CA4502 /* Frameworks */,
+				EF348FF523198C1300CA4502 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CollectionView_Assignment_W4;
+			productName = CollectionView_Assignment_W4;
+			productReference = EF348FF723198C1300CA4502 /* CollectionView_Assignment_W4.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF348FEF23198C1300CA4502 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = phonelin;
+				TargetAttributes = {
+					EF348FF623198C1300CA4502 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = EF348FF223198C1300CA4502 /* Build configuration list for PBXProject "CollectionView_Assignment_W4" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF348FEE23198C1300CA4502;
+			productRefGroup = EF348FF823198C1300CA4502 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF348FF623198C1300CA4502 /* CollectionView_Assignment_W4 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF348FF523198C1300CA4502 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF34900523198C1400CA4502 /* LaunchScreen.storyboard in Resources */,
+				EF34901C2319A40100CA4502 /* BooksCollectionViewCell.xib in Resources */,
+				EF34900223198C1400CA4502 /* Assets.xcassets in Resources */,
+				EF34900023198C1300CA4502 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF348FF323198C1300CA4502 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF348FFD23198C1300CA4502 /* ViewController.swift in Sources */,
+				EF34900F2319969A00CA4502 /* BookVo.swift in Sources */,
+				EF348FFB23198C1300CA4502 /* AppDelegate.swift in Sources */,
+				EF3490172319A15300CA4502 /* extension.swift in Sources */,
+				EF34901423199EB200CA4502 /* BookStoreViewController.swift in Sources */,
+				EF34901B2319A40100CA4502 /* BooksCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF348FFE23198C1300CA4502 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF348FFF23198C1300CA4502 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF34900323198C1400CA4502 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF34900423198C1400CA4502 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF34900723198C1400CA4502 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF34900823198C1400CA4502 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF34900A23198C1400CA4502 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74DHRH39RX;
+				INFOPLIST_FILE = CollectionView_Assignment_W4/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "phonelin.CollectionView-Assignment-W4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF34900B23198C1400CA4502 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74DHRH39RX;
+				INFOPLIST_FILE = CollectionView_Assignment_W4/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "phonelin.CollectionView-Assignment-W4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF348FF223198C1300CA4502 /* Build configuration list for PBXProject "CollectionView_Assignment_W4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF34900723198C1400CA4502 /* Debug */,
+				EF34900823198C1400CA4502 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF34900923198C1400CA4502 /* Build configuration list for PBXNativeTarget "CollectionView_Assignment_W4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF34900A23198C1400CA4502 /* Debug */,
+				EF34900B23198C1400CA4502 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF348FEF23198C1300CA4502 /* Project object */;
+}
